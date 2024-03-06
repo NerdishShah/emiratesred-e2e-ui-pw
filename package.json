@@ -1,0 +1,23 @@
+{
+  "name": "emiratesred-e2e-ui-test",
+  "version": "1.0.0",
+  "description": "End to End UI Test Automation for EmiratesRED",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx allure generate __assets__/allure-results/ -o __assets__/allure-report --clean&&allure open __assets__/allure-report"
+  },
+  "keywords": [
+    "emiratesred",
+    "ui",
+    "e2e",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "allure-playwright": "^2.11.1",
+    "dotenv": "^16.0.3"
+  }
+}

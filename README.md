@@ -85,7 +85,7 @@ We use [SemVer](http://semver.org/) for versioning. For available versions, see 
 
 ## Authors
 
-- **Shahul Hameed M Y** - *Initial work* - [YourProfile](https://github.com/NerdishShah)
+- **Shahul Hameed M Y** - *Initial work* - [Shahul Hameed M Y](https://github.com/NerdishShah)
 
 Check out the list of [contributors](https://github.com/NerdishShah/emiratesred-e2e-tests/contributors) who participated in this project.
 

@@ -20,7 +20,7 @@ export default defineConfig({
   reporter: [
     ['line'], ['allure-playwright', {
       detail: true,
-      outputFolder: '__assets__/allure-results/',
+      outputFolder: 'allure-results',
     }],
     ['json', { outputFile: 'testResults.json' }],
   ],  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */

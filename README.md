@@ -33,8 +33,12 @@ Follow these steps to set up your development environment:
    ```bash
    npm install
    ```
-
-4. To execute Playwright tests and generate the Allure report:
+4. Rename sample.env to .env to set up your environment variables:
+   
+```bash
+mv sample.env .env
+   ```
+5. To execute Playwright tests and generate the Allure report:
 
    ```bash
    npm run test
@@ -42,7 +46,7 @@ Follow these steps to set up your development environment:
 
    This will run your Playwright tests and produce Allure results in the `allure-results` directory.
 
-5. To generate and view the Allure report:
+6. To generate and view the Allure report:
 
    ```bash
    npm run report

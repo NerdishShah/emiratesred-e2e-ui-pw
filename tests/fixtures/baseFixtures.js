@@ -1,5 +1,5 @@
 import { test as base } from '@playwright/test';
-import { HomePage } from '../pages/homepage';
+import { HomePage } from '../pages/homePage';
 import { SearchResultsPage } from '../pages/searchResultsPage';
 
 export const test = base.extend({

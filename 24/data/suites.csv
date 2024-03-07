@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 07 11:47:45 GMT 2024","Thu Mar 07 11:47:48 GMT 2024","3091","chromium","productSearch.spec.js","Product search tests","","","Should return product results valid product",""
+"passed","Thu Mar 07 11:47:39 GMT 2024","Thu Mar 07 11:47:45 GMT 2024","5762","chromium","addToCart.spec.js","Add to cart tests","","","Should update card on product add from details page",""
+"passed","Thu Mar 07 11:47:33 GMT 2024","Thu Mar 07 11:47:39 GMT 2024","5455","chromium","addToCart.spec.js","Add to cart tests","","","Should update card on product add from product card",""
+"passed","Thu Mar 07 11:47:51 GMT 2024","Thu Mar 07 11:47:55 GMT 2024","3933","chromium","productSearch.spec.js","Product search tests","","","Should return product suggestion on valid search term",""
+"passed","Thu Mar 07 11:47:48 GMT 2024","Thu Mar 07 11:47:51 GMT 2024","3274","chromium","productSearch.spec.js","Product search tests","","","Should return no result on invalid product",""

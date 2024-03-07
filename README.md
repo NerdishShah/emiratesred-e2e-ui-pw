@@ -61,6 +61,17 @@ Execute the automated tests for this system as follows:
 ```bash
 npm test
 ```
+To run a specific test file, use the following command:
+```bash
+npx playwright test path/to/your/test/file.spec.js
+```
+## Project Structure
+- tests/: Contains test files written in JavaScript.
+- pages/: Contains JavaScript files representing page objects according to the POM.
+- basePage.js: The base page class that other page objects extend from.
+- node_modules/: Contains npm packages required for the project (not checked into version control).
+- package.json: Defines project dependencies and scripts.
+- playwright.config.js: Configuration file for Playwright settings.
 
 This command runs all Playwright tests and stores the results in the `allure-results` folder for subsequent reporting.
 

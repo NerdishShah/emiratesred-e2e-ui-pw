@@ -35,8 +35,8 @@ Follow these steps to set up your development environment:
    ```
 4. Rename sample.env to .env to set up your environment variables:
    
-```bash
-mv sample.env .env
+   ```bash
+   mv sample.env .env
    ```
 5. To execute Playwright tests and generate the Allure report:
 

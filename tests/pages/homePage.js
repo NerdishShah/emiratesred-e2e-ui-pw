@@ -8,7 +8,7 @@ export class HomePage extends BasePage {
         this.closePreorderPopup = page.locator('div.close');
         this.productlist = page.locator('#product');
         this.firtAddToCart = page.locator('div:nth-child(6) > .widget-item > .product-item-info > .product-item-details > .product-item-actions > .btn').first();
-        this.cartCount = page.locator('span.counter-number');
+        this.productByText = (name) => page.getByText(name);
     }
 
     goto = async () => {
@@ -40,9 +40,8 @@ export class HomePage extends BasePage {
         await this.firtAddToCart.click();
     }
 
-    getCartCount = async () => {
-        await this.cartCount.waitFor();
-        return this.cartCount.textContent();
+    goToProductDetails = async (productName) => {
+        await this.productByText(productName).first().click();
     }
 
 }

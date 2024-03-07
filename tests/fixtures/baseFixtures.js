@@ -1,6 +1,7 @@
 import { test as base } from '@playwright/test';
 import { HomePage } from '../pages/homePage';
 import { SearchResultsPage } from '../pages/searchResultsPage';
+import { ProductDetailPage } from '../pages/productDetailPage';
 
 export const test = base.extend({
 
@@ -10,6 +11,10 @@ export const test = base.extend({
 
     searchResultsPage: async ({ page }, use) => {
         await use(new SearchResultsPage(page));
+    },
+
+    productDetailPage: async ({ page }, use) => {
+        await use(new ProductDetailPage(page));
     },
 
 });

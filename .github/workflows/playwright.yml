@@ -48,7 +48,7 @@ jobs:
       uses: s0/git-publish-subdir-action@develop
       env:
         REPO: self   
-        BRANCH: test-branch 
+        BRANCH: main
         CLEAR_GLOBS_FILE: ".clearglobfile"
         FOLDER: ./__assets__/allure-report
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

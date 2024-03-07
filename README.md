@@ -61,6 +61,8 @@ Execute the automated tests for this system as follows:
 ```bash
 npm test
 ```
+   This will run your Playwright tests and produce Allure results in the `allure-results` directory.
+
 To run a specific test file, use the following command:
 ```bash
 npx playwright test path/to/your/test/file.spec.js
@@ -72,8 +74,6 @@ npx playwright test path/to/your/test/file.spec.js
 - node_modules/: Contains npm packages required for the project (not checked into version control).
 - package.json: Defines project dependencies and scripts.
 - playwright.config.js: Configuration file for Playwright settings.
-
-This command runs all Playwright tests and stores the results in the `allure-results` folder for subsequent reporting.
 
 ## Contributing
 

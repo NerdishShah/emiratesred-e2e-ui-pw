@@ -9,6 +9,7 @@ Follow these instructions to get the project up and running on your local machin
 ### Prerequisites
 
 Before you start, ensure you have the following installed:
+
 - Node.js (v16 or newer)
 - npm (v6 or newer)
 
@@ -33,11 +34,13 @@ Follow these steps to set up your development environment:
    ```bash
    npm install
    ```
+
 4. Rename sample.env to .env to set up your environment variables:
-   
+
    ```bash
    mv sample.env .env
    ```
+
 5. To execute Playwright tests and generate the Allure report:
 
    ```bash
@@ -61,13 +64,17 @@ Execute the automated tests for this system as follows:
 ```bash
 npm test
 ```
-   This will run your Playwright tests and produce Allure results in the `allure-results` directory.
+
+This will run your Playwright tests and produce Allure results in the `allure-results` directory.
 
 To run a specific test file, use the following command:
+
 ```bash
 npx playwright test path/to/your/test/file.spec.js
 ```
+
 ## Project Structure
+
 - tests/: Contains test files written in JavaScript.
 - pages/: Contains JavaScript files representing page objects according to the POM.
 - basePage.js: The base page class that other page objects extend from.
@@ -85,7 +92,7 @@ We use [SemVer](http://semver.org/) for versioning. For available versions, see 
 
 ## Authors
 
-- **Shahul Hameed M Y** - *Initial work* - [Shahul Hameed M Y](https://github.com/NerdishShah)
+- **Shahul Hameed M Y** - _Initial work_ - [Shahul Hameed M Y](https://github.com/NerdishShah)
 
 Check out the list of [contributors](https://github.com/NerdishShah/emiratesred-e2e-tests/contributors) who participated in this project.
 
